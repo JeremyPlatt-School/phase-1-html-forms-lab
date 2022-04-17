@@ -11,38 +11,48 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-
+    <form action="">
 
       <!-- Add a label for 'fullname'-->
-
+      <label for="fullname"></label>
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
       <!-- Include the place holder text "Enter Name" and make this input required -->
-
+      <input type="text" name="fullname" id="fullname" placeholder="Enter Name" required>
 
       <!-- Add a label for 'email'-->
-
+      <label for="email"></label>
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
-
+      <input type="email" name="email" id="email" placeholder="Enter Email" required>
 
       <!-- Add a label for 'phone'-->
-
+      <label for="phone"></label>
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
-
+      <input type="tel" name="phone" id="phone" placeholder="Enter Telephone (optional)">
 
       <!-- Add a label for 'message'-->
-
+      <label for="message"></label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
+      <h3>Want to leave a message?</h3>
+      <textarea name="message" id="message" placeholder="Enter Message"></textarea>
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
+      <h3>Here is a Checkbox!</h3>
+      <input type="checkbox" name="box1" value="1" />1<br />
+      <input type="checkbox" name="box2" value="2" />2<br />
+      <input type="checkbox" name="box3" value="3" />3<br />
+      <input type="checkbox" name="box4" value="4" />4<br />
+      <input type="checkbox" name="box5" value="5" />5<br />
 
 
 
       <!-- Add an input with the type set to 'submit' -->
+      <input type="submit" name="submitstuff" id="submittest" value="Hit me to submit!">
 
+    </form>
     
   </body>
 </html>
